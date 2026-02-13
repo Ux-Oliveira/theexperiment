@@ -54,7 +54,7 @@ export default function Home() {
         <div
           title="Vids to gifs for Piffy"
           className="quadrant"
-          onClick={() => window.open("https:vidtogif.vercel.app", "_blank")}
+          onClick={() => window.open("https://vidtogif.vercel.app", "_blank")}
         >
           <img src="/gify.gif" />
           <div id="cardname" className="title">VidToGif</div>
