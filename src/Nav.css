@@ -17,21 +17,8 @@
   color: white;
   letter-spacing: 2px;
   transform: rotate(-2deg);
-  margin-left: -270px;
   cursor: default;
-}
-#modaltext a {
-    text-align: center;
-    text-decoration: none;
-    color: #6166AD;
-    font-weight: bold;
-    text-shadow: #1B1B1D;
-    font-size: 20px;
-}
-
-#modaltext {
-    text-align: center;
-    text-decoration: none;
+  margin-left: auto; /* pushes to right properly */
 }
 
 /* keep gradient computer icon */
@@ -48,4 +35,28 @@
   0% { transform: scale(1); }
   50% { transform: scale(1.15); }
   100% { transform: scale(1); }
+}
+
+#modaltext {
+  text-align: center;
+}
+
+#modaltext a {
+  text-decoration: none;
+  color: #6166AD;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+/*MOBILE FIX */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 15px;
+  }
+
+  .experiment-title {
+    font-size: 22px;
+    margin-right: 10px; /* move slightly left */
+  }
 }
