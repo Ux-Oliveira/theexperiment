@@ -87,8 +87,12 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 40px;
-  padding: 80px;
+  padding: 80px 0; 
+  max-width: 1200px;
+  margin: 0 auto; 
+  justify-items: center; 
 }
+
 
 .quadrant {
   position: relative;
