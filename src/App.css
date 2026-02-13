@@ -284,6 +284,10 @@ body {
     align-items: center;
   }
   .quadrant {
-    margin-left: -20px;
+    margin-left: -60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+    padding: 80px;
   }
 }
