@@ -61,12 +61,12 @@ export default function Home() {
         </div>
 
         <div
-          title="What Goes Here?"
+          title="After Dark Reading"
           className="quadrant"
-          /*onClick={() => window.open("", "_blank")}*/
+           onClick={() => navigate("/ltarot")}
         >
-          <img src="/placeholder.png" />
-          <div id="cardname" className="title">What Goes Here?</div>
+          <img src="/after.png" />
+          <div id="cardname" className="title">Tarot After Dark</div>
         </div>
 
         <div
