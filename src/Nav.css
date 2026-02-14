@@ -18,7 +18,7 @@
   letter-spacing: 2px;
   transform: rotate(-2deg);
   cursor: default;
-  margin-left: auto; /* pushes to right properly */
+  margin-left: -100px;/* pushes to right properly */
 }
 
 /* keep gradient computer icon */
