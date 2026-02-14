@@ -1,10 +1,8 @@
 /* PAGE BACKGROUND */
 .ltarot-page {
   min-height: calc(110vh - 80px);
-  margin-top: -20px;
   background: url("/afterback.png") center/cover no-repeat fixed;
   text-align: center;
-  padding-top: 40px;
 }
 
 /* TITLE */
@@ -145,9 +143,6 @@
 
 @media (max-width: 768px) {
 
-  .ltarot-page {
-    padding-top: 150px;
-  }
 
   .ltarot-page .tarot-title {
     font-size: 32px;
