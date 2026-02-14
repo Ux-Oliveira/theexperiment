@@ -178,6 +178,19 @@ body {
   flex-wrap: wrap;
 }
 
+/*.card-containerlt,
+arot-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}*/
+
+.ltarot-container .card img {
+ width: 190px;
+}
+
 .card {
   width: 200px;
   perspective: 1000px;
