@@ -4,12 +4,11 @@ body {
   background: linear-gradient(135deg, #6166AD, #8BCF9B);
   color: white;
   overflow-x: hidden;
-  padding-top: 100px; /* space below navbar */
+  padding-top: 100px;
 }
 
 
 
-/* COMPUTER ICON */
 .computer-icon {
   position: fixed;
   top: 20px;
@@ -34,7 +33,6 @@ body {
   100% { transform: scale(1); }
 }
 
-/* MODAL */
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -60,8 +58,8 @@ body {
 }
 
 .banner-video {
-  width: 820px; /* scaled down */
-  height: auto; /* keeps original ratio */
+  width: 820px; 
+  height: auto; 
   border-radius: 10px;
   cursor: pointer;
   display: block;
@@ -83,7 +81,6 @@ body {
 }
 
 
-/* QUADRANTS */
 .quadrant-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -125,7 +122,6 @@ body {
 }
 
 
-/* TAROT PAGE */
 .tarot-page {
   min-height: calc(110vh - 80px);
   margin-top: -20px;
@@ -174,7 +170,6 @@ body {
   100% { left: 100%; }
 }
 
-/* CARDS */
 .cards-container {
   display: flex;
   justify-content: center;
@@ -208,19 +203,18 @@ body {
   padding: 15px;
   border-radius: 8px;
 
-  width: 200px;        /* match card width */
-  height: 160px;       /* fixed height */
-  overflow: hidden;    /* prevent expansion */
+  width: 200px;        /*trying to match card width*/
+  height: 160px;       
+  overflow: hidden;    
   display: flex;
   flex-direction: column;
 }
 .card-meaning p {
-  overflow-y: auto;    /* scroll inside */
+  overflow-y: auto;    
   margin-top: 8px;
   font-size: 14px;
 }
 
-/* optional: subtle scrollbar styling */
 .card-meaning p::-webkit-scrollbar {
   width: 6px;
 }
@@ -240,7 +234,7 @@ body {
 }
 
 
-/* Crystal Ball Button */
+/*crystal ball butto */
 .crystal-ball {
   position: fixed;
   top: 100px;
@@ -304,14 +298,14 @@ body {
 
    .video-wrapper {
     position: fixed;
-    top: 70px;          /* slightly below navbar */
+    top: 90px;          /*putting it slightly below navbar*/
     right: 10px;
-    left: 10px;         /* center on mobile */
+    left: 10px;        
     z-index: 1000;
   }
 
   .banner-video {
-    width: 100%;        /* full width mobile */
+    width: 100%;       
     max-width: 100%;
     height: auto;
     border-radius: 12px;
@@ -320,7 +314,7 @@ body {
   .close-video {
     top: -8px;
     left: -8px;
-    font-size: 28px;    /* smaller tap-friendly */
+    font-size: 28px;    
     background: rgba(0,0,0,0.4);
     border-radius: 50%;
     padding: 4px 8px;
