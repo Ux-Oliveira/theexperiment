@@ -1,7 +1,7 @@
 /* PAGE BACKGROUND */
 .ltarot-page {
   min-height: calc(110vh - 80px);
-  background: url("/afterback.png") center/cover no-repeat fixed;
+  background: url("/afterback.png") center/cover no-repeat;
   text-align: center;
 }
 
