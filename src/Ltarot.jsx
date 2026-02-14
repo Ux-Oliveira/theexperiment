@@ -154,7 +154,7 @@ export default function LTarot() {
   };
 
   return (
-    <div className="ltarot-page ltarot-page">
+    <div className="ltarot-page">
 
       {/* Crystal Ball */}
       {history.length > 0 && (
