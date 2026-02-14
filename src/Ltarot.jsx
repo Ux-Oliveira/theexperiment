@@ -180,7 +180,7 @@ export default function Tarot() {
                 ? "/ltarot/wands/pageofwands.png"
                 : revealed
                 ? card.image
-                : "/ltarot/backcard.png";
+                : "/ltarot/lbackcard.png";
 
               return (
                 <div key={i} className={`card ${!revealed ? "spin" : ""}`}>
