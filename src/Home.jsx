@@ -65,7 +65,7 @@ export default function Home() {
           className="quadrant"
            onClick={() => navigate("/ltarot")}
         >
-          <img src="/after.png" />
+          <img src="/afterback.png" />
           <div id="cardname" className="title">Tarot After Dark</div>
         </div>
 
