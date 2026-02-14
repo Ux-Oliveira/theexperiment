@@ -233,6 +233,10 @@ body {
   border-radius: 10px;
 }
 
+.ltarot-page {
+  background: url("/afterback.png") center/cover no-repeat fixed;
+}
+
 
 /*crystal ball butto */
 .crystal-ball {
