@@ -304,7 +304,7 @@ body {
 
    .video-wrapper {
     position: fixed;
-    top: 90px;          /* slightly below navbar */
+    top: 70px;          /* slightly below navbar */
     right: 10px;
     left: 10px;         /* center on mobile */
     z-index: 1000;
