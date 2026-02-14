@@ -300,4 +300,32 @@ body {
     align-items: center;
   }
 
+  /*corn video*/
+
+   .video-wrapper {
+    position: fixed;
+    top: 90px;          /* slightly below navbar */
+    right: 10px;
+    left: 10px;         /* center on mobile */
+    z-index: 1000;
+  }
+
+  .banner-video {
+    width: 100%;        /* full width mobile */
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  .close-video {
+    top: -8px;
+    left: -8px;
+    font-size: 28px;    /* smaller tap-friendly */
+    background: rgba(0,0,0,0.4);
+    border-radius: 50%;
+    padding: 4px 8px;
+    color: #fff;
+  }
+  
+
 }
