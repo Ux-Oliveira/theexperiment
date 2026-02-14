@@ -49,7 +49,7 @@ export default function Tarot() {
     return `/tarotcards/${suit}/${formatted}.png`;
   };
 
-  // Clean text: remove any dash and replace with comma
+  //remove any dash present in the API card description and replacing it with a comma
   const cleanText = (text) => {
     return text.replace(/[-—–]+/g, ",");
   };
@@ -63,7 +63,7 @@ export default function Tarot() {
       : `${card.name} suggests ${base.toLowerCase()}`;
   };
 
-  // Short, concise overall meaning
+  //here i add a precise overall meaning 
 
   const buildOverallReading = (cards) => {
   const reversedCount = cards.filter(c => c.reversed).length;
