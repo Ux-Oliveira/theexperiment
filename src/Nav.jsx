@@ -39,9 +39,9 @@ export default function Nav() {
       {!isTarot && open && (
         <div className="modal-overlay" onClick={() => setOpen(false)}>
           <div className="modal" id="modaltext" onClick={(e) => e.stopPropagation()}>
-            This website is a collective effort. Whatever you want goes on it!
+            This website is a collective effort. Whatever you want goes on it!<br />
+            <a id="modaltext" href="https://youtube.com/@ricksahuman" target="_blank">Check out the channel on YT!</a>
           </div>
-          <div className="modal" id="modaltext"><a id="modaltext" href="https://youtube.com/@ricksahuman" target="_blank">Check out the channel on YT!</a></div>
         </div>
       )}
     </>
