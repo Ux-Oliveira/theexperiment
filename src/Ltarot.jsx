@@ -1,3 +1,4 @@
+import "./Ltarot.css";
 import { useState, useEffect } from "react";
 
 const numberMap = {
@@ -153,7 +154,7 @@ export default function LTarot() {
   };
 
   return (
-    <div className="tarot-page ltarot-page">
+    <div className="ltarot-page ltarot-page">
 
       {/* Crystal Ball */}
       {history.length > 0 && (
@@ -173,7 +174,7 @@ export default function LTarot() {
 
       {started && (
         <>
-          <div className="cards-container">
+          <div className="cards-container ltarot-container">
             {cards.map((card, i) => {
               const isFallback = fallbacks[i];
               const src = isFallback
