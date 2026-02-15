@@ -148,9 +148,14 @@
 @media (max-width: 768px) {
 
 
+  .ltarot-page {
+    background-attachment: scroll; /* mobile fix */
+    padding-top: 100px; /* pushes title down */
+  }
+  
   .ltarot-page .tarot-title {
     font-size: 32px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .ltarot-page .generate-btn {
