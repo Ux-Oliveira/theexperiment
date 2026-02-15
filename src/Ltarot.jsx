@@ -214,7 +214,7 @@ export default function LTarot() {
           {revealed && (
             <div style={{ marginTop: "40px" }}>
               <button className="generate-btn" onClick={() => setDeepOpen(true)}>
-                Dig Deeper
+                Deeper Meaning...
               </button>
             </div>
           )}
@@ -233,7 +233,7 @@ export default function LTarot() {
               textAlign: "center",
             }}
           >
-            <h2>Overall Message</h2>
+            <h2>Oral Message</h2>
             <p>{overall}</p>
           </div>
         </div>
@@ -246,7 +246,7 @@ export default function LTarot() {
             className="modal constrained-modal"
             onClick={(e) => e.stopPropagation()}
           >
-            <h2>Previous Readings</h2>
+            <h2>Previous Nights...</h2>
             {history.map((item, index) => (
               <div key={index} style={{ marginBottom: "15px" }}>
                 <strong>{item.date}</strong>
