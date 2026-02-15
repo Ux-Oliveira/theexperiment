@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 export default function Home() {
   const navigate = useNavigate();
   const [showVideo, setShowVideo] = useState(true);
+  const [showAgeModal, setShowAgeModal] = useState(false);
 
   return (
     <div className="home">
@@ -63,7 +64,15 @@ export default function Home() {
         <div
           title="After Dark Reading"
           className="quadrant"
-           onClick={() => navigate("/ltarot")}
+          onClick={() => {
+            const accepted = localStorage.getItem("ltarot18");
+
+            if (accepted === "yes") {
+              navigate("/ltarot");
+            } else {
+              setShowAgeModal(true);
+            }
+          }}
         >
           <img src="/afterback.png" />
           <div id="cardname" className="title">Tarot After Dark</div>
@@ -114,9 +123,42 @@ export default function Home() {
           <div id="cardname" className="title">What Goes Here?</div>
         </div>
 
-
-
       </div>
+
+      {showAgeModal && (
+        <div
+          className="modal-overlay"
+          onClick={() => setShowAgeModal(false)}
+        >
+          <div
+            className="modal"
+            id="modaltext"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <h3>Are you over 18?</h3>
+
+            <div style={{ marginTop: "20px", display: "flex", gap: "15px", justifyContent: "center" }}>
+              <button
+                className="generate-btn"
+                onClick={() => {
+                  localStorage.setItem("ltarot18", "yes");
+                  navigate("/ltarot");
+                }}
+              >
+                Yes
+              </button>
+
+              <button
+                className="generate-btn"
+                onClick={() => setShowAgeModal(false)}
+              >
+                No
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
     </div>
   );
 }
