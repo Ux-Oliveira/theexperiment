@@ -1,7 +1,7 @@
 /* PAGE BACKGROUND */
 .ltarot-page {
   min-height: calc(110dvh);
-  margin-top: 0px;   /* SAME as tarot-page */
+  margin-top: -20px;   /* SAME as tarot-page */
   padding-top: 40px;   /* SAME as tarot-page */
   background: none;
   text-align: center;
