@@ -164,8 +164,11 @@
 
 
   .ltarot-page {
-    padding-top: 200px; /* creates real breathing room under navbar */
-    min-height: 100dvh;
+    padding-top: 0px; /* creates real breathing room under navbar */
+  }
+
+  .ltarot-page .tarot-title {
+    margin-top: 120px !important;
   }
 
   .ltarot-page > * {
