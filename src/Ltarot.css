@@ -164,22 +164,33 @@
 
 
   .ltarot-page {
-    background-attachment: scroll; /* mobile fix */
-    padding-top: 100px; /* pushes title down */
+    padding-top: 120px; /* creates real breathing room under navbar */
+    min-height: 100dvh;
   }
-  
+
+  .ltarot-page > * {
+    max-width: 92vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .ltarot-page .tarot-title {
     font-size: 32px;
-    margin-top: 20px;
+    margin-top: 10px;
+    line-height: 1.2;
   }
 
   .ltarot-page .generate-btn {
-    margin-top: 30px;
+    margin-top: 25px;
+    padding: 16px 40px;
+    font-size: 18px;
   }
 
   .ltarot-container {
     flex-direction: column;
     align-items: center;
+    gap: 30px;
+    margin-top: 40px;
   }
 
   .ltarot-container .card {
