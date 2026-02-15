@@ -3,9 +3,18 @@
   min-height: calc(110dvh);
   margin-top: 0px;   /* SAME as tarot-page */
   padding-top: 40px;   /* SAME as tarot-page */
-  background: url("/afterback.png") center/cover no-repeat fixed;
+  background: none;
   text-align: center;
 }
+
+.ltarot-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("/afterback.png") center / cover no-repeat;
+  z-index: -1;
+}
+
 
 .ltarot-page {
   overflow-x: hidden;
