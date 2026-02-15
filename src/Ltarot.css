@@ -1,10 +1,14 @@
 /* PAGE BACKGROUND */
 .ltarot-page {
-  min-height: calc(110vh - 80px);
+  min-height: calc(110dvh);
   margin-top: -20px;   /* SAME as tarot-page */
   padding-top: 40px;   /* SAME as tarot-page */
   background: url("/afterback.png") center/cover no-repeat fixed;
   text-align: center;
+}
+
+.ltarot-page {
+  overflow: hidden;
 }
 
 
@@ -168,7 +172,7 @@
   }
 
   .ltarot-container .card {
-    width: 360px;
+    width: min(380px, 92vw);
   }
 
   .ltarot-page .crystal-ball {
