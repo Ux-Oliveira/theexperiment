@@ -7,7 +7,9 @@ export default function Nav() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const isTarot = location.pathname === "/tarot";
+  const isTarot =
+    location.pathname === "/tarot" ||
+    location.pathname === "/ltarot";
 
   return (
     <>
