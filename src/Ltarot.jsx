@@ -66,11 +66,11 @@ export default function LTarot() {
 
     const aligned = [
       "There's a smooth confidence in the air, lean into what feels good and let yourself enjoy the moment.",
-      "The energy in you feels warm and inviting. Whatever it is, let in. Don't overthink.",
+      "The energy in you feels warm and inviting. Whatever it is, let it in. Don't overthink.",
       "Things feel naturally magnetic, trust your curiosity and let yourself be pulled.",
       `With ${randomCard} showing up strong, attraction and confidence are working in your favor.`,
       `The combination of ${cardNames} suggest things might get deeper than you think.`,
-      "You're giving off too much of a glow. People are noticing things more than you know",
+      "You're giving off too much of a glow. People are noticing you more than you know.",
       "Don't rush the play, enjoy your time and let yourself go.",
       "Confidence is your strong language right now, speak it fluently.",
       "This is one of those moments where the leaning in feels better than holding back",
@@ -79,25 +79,25 @@ export default function LTarot() {
     const mixed = [
       "There's chemistry here but timming matters. Beware of that alleyway and let things unfold naturally.",
       "Something intriguing is forming, but a little restraint might make the release feel more pleasurable.",
-      "The energy is flirtatious yet uncertain.",
-      `With ${randomCard} here, subtlety may take you two further.`,
-      `The blend of ${cardNames} suggests an attraction has been building for a while.`,
-      "There's tension in the best way.",
-      "Not everything needs definition now. Enjoy the ambiguity.",
+      "The energy is flirtatious yet uncertain. Ask if they're down. But most importantly, are you down?",
+      `With ${randomCard} here, subtlety and discreetness may take you further.`,
+      `The blend of ${cardNames} suggests an attraction has been building for a while, huh? That's enough.`,
+      "There's tension in the best way. You might not need to wonder for much longer.",
+      "Not everything needs definition now. Enjoy the ambiguity of things. Let it happen.",
       "A slow burn is more satisfying than an instant answer.",
-      "Let intrigue do the heavy lifting now.",
+      "Let intrigue do the heavy lifting now. Think about it later.",
     ];
 
     const blocked = [
-      "Something feels slightly offbeat, take a step back and reassess.",
+      "Something feels slightly offbeat, take a step back and think things through.",
       "The mood may feel tangled. Breathe and find clarity.",
-      "Not every spark needs chasing.",
+      "Not every spark needs chasing. Some, you can just let fade.",
       `With ${randomCard} turning things on, reflection might be better than reaction.`,
-      `The presence of ${cardNames} hints at mixed signals.`,
-      "Pause before making any moves.",
-      "Give yourself some alone time and space.",
-      "Mystery works both ways.",
-      "Let things cool slightly, balance makes everything more compelling.",
+      `The presence of ${cardNames} hints at mixed signals on both parties.`,
+      "Pause before making any moves. Now it's the time for caution.",
+      "Give yourself some alone time and space. It's pleasurable that way too.",
+      "Mystery works both ways. But some are not uncovering.",
+      "Balance makes everything more compelling. Let things cool slightly, so things can be reignated later.",
     ];
 
     let pool;
