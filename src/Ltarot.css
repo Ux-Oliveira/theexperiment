@@ -1,11 +1,13 @@
 /* PAGE BACKGROUND */
 .ltarot-page {
   min-height: calc(110dvh);
-  margin-top: -20px;   /* SAME as tarot-page */
-  padding-top: 40px;   /* SAME as tarot-page */
+  padding-top: 40px;
   background: none;
   text-align: center;
+  overflow-x: hidden;
+  position: relative;
 }
+
 
 .ltarot-page::before {
   content: "";
