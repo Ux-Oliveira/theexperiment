@@ -79,12 +79,12 @@ export default function Home() {
         </div>
 
         <div
-          title="What Goes Here?"
+          title="theslap.com Status Generator!"
           className="quadrant"
-          /*onClick={() => window.open("", "_blank")}*/
+          onClick={() => window.open("https://theslapstatus.vercel.app/", "_blank")}
         >
-          <img src="/placeholder.png" />
-          <div id="cardname" className="title">What Goes Here?</div>
+          <img src="/slap.gif" />
+          <div id="cardname" className="title">theslap.com Status Generator!</div>
         </div>
 
         <div
