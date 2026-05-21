@@ -44,12 +44,12 @@ export default function Home() {
         </div>
 
         <div
-          title="Get your tarot reading today"
+          title="theslap.com Status Generator!"
           className="quadrant"
-          onClick={() => navigate("/tarot")}
+          onClick={() => window.open("https://theslapstatus.vercel.app/", "_blank")}
         >
-          <img src="/witch.png" />
-          <div id="cardname" className="title">Tarot Express</div>
+          <img src="/slap.gif" />
+          <div id="cardname" className="title">theslap.com Status Generator!</div>
         </div>
 
         <div
@@ -78,13 +78,14 @@ export default function Home() {
           <div id="cardname" className="title">Tarot After Dark</div>
         </div>
 
+
         <div
-          title="theslap.com Status Generator!"
+          title="Get your tarot reading today"
           className="quadrant"
-          onClick={() => window.open("https://theslapstatus.vercel.app/", "_blank")}
+          onClick={() => navigate("/tarot")}
         >
-          <img src="/slap.gif" />
-          <div id="cardname" className="title">theslap.com Status Generator!</div>
+          <img src="/witch.png" />
+          <div id="cardname" className="title">Tarot Express</div>
         </div>
 
         <div
